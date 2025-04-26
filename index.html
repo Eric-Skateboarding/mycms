@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>我的滑板店 - 首頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 導覽列 -->
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="products.html">商品</a></li>
+      <li><a href="cart.html">購物車</a></li>
+    </ul>
+  </nav>
+
+  <!-- 首頁內容 -->
+  <header>
+    <h1>歡迎來到我的滑板店！</h1>
+    <p>這裡有最新最潮的滑板、服飾與配件！</p>
+  </header>
+
+  <!-- 上架商品表單 -->
+  <section>
+    <h2>上架新商品</h2>
+    <form id="uploadProductForm" enctype="multipart/form-data">
+      <input type="file" name="image" required><br><br>
+      <input type="text" name="name" placeholder="商品名稱" required><br><br>
+      <input type="number" name="price" placeholder="價格" required><br><br>
+      <button type="submit">上傳商品</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
